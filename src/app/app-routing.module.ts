@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { AdvisorDashbordComponent } from './advisor-dashbord/advisor-dashbord.component';
 import { AdminComponent } from './admin/admin.component';
+import { TempComponent } from './temp/temp.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:'register', component:RegisterComponent},
   {path:'login', component:LoginComponent},
   {path:'admin', component:AdminComponent},
+  {path:'temp', component:TempComponent},
   {path:'advisordashboard', component:AdvisorDashbordComponent}
 ];
 

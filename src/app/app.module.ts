@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminComponent } from './admin/admin.component';
 import { StatusComponent } from './status/status.component';
 import { AddCarComponent } from './add-car/add-car.component';
+import { TempComponent } from './temp/temp.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AddCarComponent } from './add-car/add-car.component';
     AdvisorDashbordComponent,
     AdminComponent,
     StatusComponent,
-    AddCarComponent
+    AddCarComponent,
+    TempComponent
   ],
   imports: [
     BrowserModule,
